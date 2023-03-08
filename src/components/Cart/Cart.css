@@ -12,9 +12,9 @@ li {
   cursor: pointer;
 }
 .cart-container {
-  border: 1px solid black;
-  border-radius: 10px;
-  margin: 20px;
+  box-shadow: 0px 10px 20px #ccc;
+  border-radius: 5px;
+  margin: 8vh;
   height: min-content;
   max-height: 50vh;
   padding: 10px;
@@ -25,7 +25,7 @@ li {
 .cartItem {
   display: flex;
   justify-content: space-between;
-  border: 1px solid black;
+  box-shadow: 0px 10px 20px #ccc;
   border-radius: 10px;
   padding: 20px;
   font-size: 20px;

@@ -3,7 +3,7 @@ import { useDispatch } from "react-redux";
 import { authActions } from "../../store/authSlice";
 import Cart from "../Cart/Cart";
 import "./Header.css";
-const Header = () => {
+const Header = ({ scrollIntoCart }) => {
   const dispatch = useDispatch();
   const handleLogout = () => {
     dispatch(authActions.logout());
@@ -21,7 +21,7 @@ const Header = () => {
             </h2>
           </li>
           <li>
-            <Cart />
+            <Cart scrollIntoCart={scrollIntoCart} />
           </li>
           <li>
             <button onClick={handleLogout} className="logout-btn">
