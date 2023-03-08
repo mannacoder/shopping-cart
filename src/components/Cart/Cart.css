@@ -1,5 +1,6 @@
 ul {
   list-style-type: none;
+  padding: 0;
 }
 li {
   padding: 10px;
@@ -14,7 +15,8 @@ li {
   border: 1px solid black;
   border-radius: 10px;
   margin: 20px;
-  height: 400px;
+  height: min-content;
+  max-height: 50vh;
   padding: 10px;
   overflow: scroll;
   overflow-x: hidden;
@@ -37,4 +39,9 @@ li {
   width: 50px;
   border: none;
   background: rgb(10, 7, 24);
+}
+
+.empty-cart {
+  color: #000;
+  text-align: center;
 }

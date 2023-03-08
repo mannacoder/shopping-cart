@@ -1,6 +1,6 @@
 import React from "react";
 import { useDispatch } from "react-redux";
-import { authActions } from "../store/authSlice";
+import { authActions } from "../../store/authSlice";
 
 import "./Auth.css";
 

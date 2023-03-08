@@ -1,7 +1,7 @@
 import React from "react";
 import { useDispatch } from "react-redux";
 import { useSelector } from "react-redux";
-import { cartActions } from "../store/cartSlice";
+import { cartActions } from "../../store/cartSlice";
 import "./Cart.css";
 const Cart = () => {
   const quantity = useSelector((state) => state.cart.totalQuantity);
